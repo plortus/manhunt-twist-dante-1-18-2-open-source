@@ -1,0 +1,1557 @@
+{
+  "mod_elements": [
+    {
+      "name": "TWISTTAB",
+      "type": "tab",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisttab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "USFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/usflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED STATES"
+    },
+    {
+      "name": "USFLAG",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usflag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/usflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/entity/USFLAGEntity.java",
+          "src/main/java/net/mcreator/manhunttwistdante/item/USFLAGItem.java"
+        ]
+      },
+      "path": "~/FLAGS/UNITED STATES"
+    },
+    {
+      "name": "SERBIAFLAG",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serbiaflag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/serbiaflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/SERBIAFLAGItem.java"
+        ]
+      },
+      "path": "~/FLAGS/SERBIA"
+    },
+    {
+      "name": "SERBIA_FLAG_DRINK",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serbia_flag_drink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/SERBIA_FLAG_DRINKProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FLAGS/SERBIA"
+    },
+    {
+      "name": "SERBIAFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serbiaflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/serbiaflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/SERBIA"
+    },
+    {
+      "name": "WOOLTABLE",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooltable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/block/wooltable.json",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/wooltable.json",
+          "src/main/resources/assets/manhunt_twist_dante/blockstates/wooltable.json",
+          "src/main/java/net/mcreator/manhunttwistdante/block/WOOLTABLEBlock.java"
+        ]
+      },
+      "path": "~/WOOL DEVICE"
+    },
+    {
+      "name": "WOOLTABLERECIPE",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooltablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/wooltablerecipe.json"
+        ]
+      },
+      "path": "~/WOOL DEVICE"
+    },
+    {
+      "name": "WOOLTABLEFUNCTIONALITY",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooltablefunctionality",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/WOOLTABLEFUNCTIONALITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/WOOL DEVICE"
+    },
+    {
+      "name": "ROMANIAFLAG",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "romaniaflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/ROMANIAFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/romaniaflag.json"
+        ]
+      },
+      "path": "~/FLAGS/ROMANIA"
+    },
+    {
+      "name": "ROMANIAFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "romaniaflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/romaniaflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/ROMANIA"
+    },
+    {
+      "name": "ANDREWTATE",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andrewtate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/andrewtate_spawn_egg.json",
+          "src/main/java/net/mcreator/manhunttwistdante/client/renderer/ANDREWTATERenderer.java",
+          "src/main/java/net/mcreator/manhunttwistdante/entity/ANDREWTATEEntity.java"
+        ]
+      },
+      "path": "~/FLAGS/ROMANIA"
+    },
+    {
+      "name": "ROMANIASWORD",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "romaniasword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/romaniasword.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/ROMANIASWORDItem.java"
+        ]
+      },
+      "path": "~/FLAGS/ROMANIA"
+    },
+    {
+      "name": "ROMANIAFLAGABILITY",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "romaniaflagability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/ROMANIAFLAGABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/ROMANIA"
+    },
+    {
+      "name": "ROMANIASWORDABILITY",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "romaniaswordability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/ROMANIASWORDABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/ROMANIA"
+    },
+    {
+      "name": "ROMANIASWORDHITABILITY",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "romaniaswordhitability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/ROMANIASWORDHITABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/ROMANIA"
+    },
+    {
+      "name": "NORTHIRELANDFLAG",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "northirelandflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/NORTHIRELANDFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/northirelandflag.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/N.IRELAND"
+    },
+    {
+      "name": "NORTHIRELANDFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "northirelandflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/northirelandflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/N.IRELAND"
+    },
+    {
+      "name": "SCOTLANDFLAG",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scotlandflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/SCOTLANDFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/scotlandflag.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/SCOTLAND"
+    },
+    {
+      "name": "WALESFLAG",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walesflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/WALESFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/walesflag.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/WALES"
+    },
+    {
+      "name": "ENGLANDFLAG",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "englandflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/ENGLANDFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/englandflag.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/ENGLAND"
+    },
+    {
+      "name": "WALESFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walesflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/walesflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/WALES"
+    },
+    {
+      "name": "SCOTLANDFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scotlandflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/scotlandflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/SCOTLAND"
+    },
+    {
+      "name": "ENGLANDFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "englandflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/englandflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/ENGLAND"
+    },
+    {
+      "name": "UKBLADEFLAG",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ukbladeflag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/ukbladeflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/UKBLADEFLAGItem.java"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/UK"
+    },
+    {
+      "name": "UKBLADERECIPE",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ukbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/ukbladerecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/UNITED KINGDOM/UK"
+    },
+    {
+      "name": "MEXICANTACO",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mexicantaco",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/mexicantaco.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/MEXICANTACOItem.java"
+        ]
+      },
+      "path": "~/FLAGS/MEXICO"
+    },
+    {
+      "name": "MEXICOFLAG",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mexicoflag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/mexicoflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/MEXICOFLAGItem.java"
+        ]
+      },
+      "path": "~/FLAGS/MEXICO"
+    },
+    {
+      "name": "MEXICOFLAGABILITY",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mexicoflagability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/MEXICOFLAGABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/MEXICO"
+    },
+    {
+      "name": "MEXICOFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mexicoflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/mexicoflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/MEXICO"
+    },
+    {
+      "name": "ISRAELFLAG",
+      "type": "rangeditem",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "israelflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/ISRAELFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/israelflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/entity/ISRAELFLAGEntity.java"
+        ]
+      },
+      "path": "~/FLAGS/ISRAEL"
+    },
+    {
+      "name": "ISRAELFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "israelflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/israelflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/ISRAEL"
+    },
+    {
+      "name": "ISRAELFLAGMISSILE",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "israelflagmissile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/ISRAELFLAGMISSILEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/ISRAEL"
+    },
+    {
+      "name": "ISRAEL_FLAG_COOLDOWN",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "israel_flag_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/ISRAEL_FLAG_COOLDOWNProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FLAGS/ISRAEL"
+    },
+    {
+      "name": "ISRAELPARTICLEMARKER",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "israelparticlemarker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/client/renderer/ISRAELPARTICLEMARKERRenderer.java",
+          "src/main/java/net/mcreator/manhunttwistdante/entity/ISRAELPARTICLEMARKEREntity.java"
+        ]
+      },
+      "path": "~/FLAGS/ISRAEL"
+    },
+    {
+      "name": "ISRAELPARTICLEMARKERPARTICLES",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "israelparticlemarkerparticles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/ISRAELPARTICLEMARKERPARTICLESProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/ISRAEL"
+    },
+    {
+      "name": "PALESTINEFLAG",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palestineflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/PALESTINEFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/palestineflag.json"
+        ]
+      },
+      "path": "~/FLAGS/PALESTINE"
+    },
+    {
+      "name": "PALESTINEFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palestineflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/palestineflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/PALESTINE"
+    },
+    {
+      "name": "PALESTINEFLAGABILITY",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palestineflagability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/PALESTINEFLAGABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/PALESTINE"
+    },
+    {
+      "name": "AUSTRALIAFLAG",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "australiaflag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/australiaflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/AUSTRALIAFLAGItem.java"
+        ]
+      },
+      "path": "~/FLAGS/AUSTRALIA"
+    },
+    {
+      "name": "AUSTRALIAFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "australiaflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/australiaflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/AUSTRALIA"
+    },
+    {
+      "name": "AUSTRALIAFLAGABILITY",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "australiaflagability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/AUSTRALIAFLAGABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/AUSTRALIA"
+    },
+    {
+      "name": "JAPANFLAGKATANA",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "japanflagkatana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/japanflagkatana.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/JAPANFLAGKATANAItem.java"
+        ]
+      },
+      "path": "~/FLAGS/JAPAN"
+    },
+    {
+      "name": "JAPANFLAGKATANARECIPE",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "japanflagkatanarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/japanflagkatanarecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/JAPAN"
+    },
+    {
+      "name": "NETHERLANDSFLAGPANTS",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherlandsflagpants",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/NETHERLANDSFLAGPANTSItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/netherlandsflagpants_leggings.json"
+        ]
+      },
+      "path": "~/FLAGS/NETHERLANDS"
+    },
+    {
+      "name": "NETHERLANDSFLAGPANTSRECIPE",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherlandsflagpantsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/netherlandsflagpantsrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/NETHERLANDS"
+    },
+    {
+      "name": "NETHERLANDS_FLAG_PANTS_ABILITY",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherlands_flag_pants_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/NETHERLANDS_FLAG_PANTS_ABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FLAGS/NETHERLANDS"
+    },
+    {
+      "name": "FRANCEFLAGBOOTS",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "franceflagboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/FRANCEFLAGBOOTSItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/franceflagboots_boots.json"
+        ]
+      },
+      "path": "~/FLAGS/FRANCE"
+    },
+    {
+      "name": "FRANCEFLAGBOOTSRECIPE",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "franceflagbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/franceflagbootsrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/FRANCE"
+    },
+    {
+      "name": "FRANCE_FLAG_BOOTS_ABILITY",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "france_flag_boots_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/FRANCE_FLAG_BOOTS_ABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FLAGS/FRANCE"
+    },
+    {
+      "name": "NEWZEALANDFLAG",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newzealandflag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/newzealandflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/NEWZEALANDFLAGItem.java",
+          "src/main/java/net/mcreator/manhunttwistdante/entity/NEWZEALANDFLAGEntity.java"
+        ]
+      },
+      "path": "~/FLAGS/NEW ZEALAND"
+    },
+    {
+      "name": "LAZER_KIWI_PARTICLES",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lazer_kiwi_particles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/LAZER_KIWI_PARTICLESProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/NEW ZEALAND"
+    },
+    {
+      "name": "NEWZEALANDFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newzealandflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/newzealandflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/NEW ZEALAND"
+    },
+    {
+      "name": "BELGIUMFLAG",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "belgiumflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/BELGIUMFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/belgiumflag.json"
+        ]
+      },
+      "path": "~/FLAGS/BELGIUM"
+    },
+    {
+      "name": "FAKENLFLAG",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fakenlflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/FAKENLFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/fakenlflag.json"
+        ]
+      },
+      "path": "~/FLAGS/BELGIUM"
+    },
+    {
+      "name": "FAKEFRFLAG",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fakefrflag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/fakefrflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/FAKEFRFLAGItem.java"
+        ]
+      },
+      "path": "~/FLAGS/BELGIUM"
+    },
+    {
+      "name": "BELGIUMFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "belgiumflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/belgiumflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/BELGIUM"
+    },
+    {
+      "name": "BELGIUMFLAGABILITY",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "belgiumflagability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/BELGIUMFLAGABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/BELGIUM"
+    },
+    {
+      "name": "CANADAFLAG",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canadaflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/entity/CANADAFLAGEntity.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/canadaflag.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/CANADAFLAGItem.java"
+        ]
+      },
+      "path": "~/FLAGS/CANADA"
+    },
+    {
+      "name": "CANADA_FLAG_SLOWNESS",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canada_flag_slowness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/CANADA_FLAG_SLOWNESSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FLAGS/CANADA"
+    },
+    {
+      "name": "CANADAFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canadaflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/canadaflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/CANADA"
+    },
+    {
+      "name": "IRISHFLAGFLUID",
+      "type": "fluid",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irishflagfluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/fluid/IRISHFLAGFLUIDFluid.java",
+          "src/main/java/net/mcreator/manhunttwistdante/item/IRISHFLAGFLUIDItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/block/irishflagfluid.json",
+          "src/main/resources/assets/manhunt_twist_dante/blockstates/irishflagfluid.json",
+          "src/main/java/net/mcreator/manhunttwistdante/block/IRISHFLAGFLUIDBlock.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/irishflagfluid_bucket.json"
+        ]
+      },
+      "path": "~/FLAGS/IRELAND"
+    },
+    {
+      "name": "IRISHFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irishflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/irishflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/IRELAND"
+    },
+    {
+      "name": "RUSSIAFLAGCHESTPLATE",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "russiaflagchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manhunt_twist_dante/models/item/russiaflagchestplate_chestplate.json",
+          "src/main/java/net/mcreator/manhunttwistdante/item/RUSSIAFLAGCHESTPLATEItem.java"
+        ]
+      },
+      "path": "~/FLAGS/RUSSIA"
+    },
+    {
+      "name": "RUSSIAFLAGCHESTPLATERECIPE",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "russiaflagchestplaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/russiaflagchestplaterecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/RUSSIA"
+    },
+    {
+      "name": "RUSSIAFLAGCHESTPLATEABILITY",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "russiaflagchestplateability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/RUSSIAFLAGCHESTPLATEABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FLAGS/RUSSIA"
+    },
+    {
+      "name": "WOOLTABLEACHIEVEMENT",
+      "type": "achievement",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooltableachievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/advancements/wooltableachievement.json"
+        ]
+      },
+      "path": "~/WOOL DEVICE"
+    },
+    {
+      "name": "FULLFLAGSETACHIEVEMENT",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fullflagsetachievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/advancements/fullflagsetachievement.json"
+        ]
+      },
+      "path": "~/FLAG ARMOUR"
+    },
+    {
+      "name": "FULLFLAGSET",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fullflagset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/FULLFLAGSETProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAG ARMOUR"
+    },
+    {
+      "name": "UAEFLAG",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uaeflag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/item/UAEFLAGItem.java",
+          "src/main/resources/assets/manhunt_twist_dante/models/item/uaeflag.json"
+        ]
+      },
+      "path": "~/FLAGS/UAE"
+    },
+    {
+      "name": "UAEFLAGABILITY",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uaeflagability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manhunttwistdante/procedures/UAEFLAGABILITYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FLAGS/UAE"
+    },
+    {
+      "name": "UAEFLAGRECIPE",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uaeflagrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manhunt_twist_dante/recipes/uaeflagrecipe.json"
+        ]
+      },
+      "path": "~/FLAGS/UAE"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "colour_bugatti",
+      "files": [
+        "colour_bugatti"
+      ],
+      "category": "hostile",
+      "subtitle": "Romanian Prisoner"
+    },
+    {
+      "name": "american_gun",
+      "files": [
+        "y2mate.com-realistic-gunshot-sound-effect"
+      ],
+      "category": "player",
+      "subtitle": "Shot"
+    },
+    {
+      "name": "israel_siren",
+      "files": [
+        "air_raid_siren_sound_effect"
+      ],
+      "category": "player",
+      "subtitle": "Missile Siren"
+    },
+    {
+      "name": "lazer_kiwi",
+      "files": [
+        "y2mate.com-laser-sound-effect"
+      ],
+      "category": "player",
+      "subtitle": "Lazer Kiwi"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.manhunt_twist_dante.walesflag": "Flag of Wales",
+      "item.manhunt_twist_dante.englandflag": "Flag of England",
+      "entity.manhunt_twist_dante.andrewtate": "ANDREWTATE",
+      "item.manhunt_twist_dante.mexicoflag": "Flag of Mexico",
+      "item.manhunt_twist_dante.franceflagboots_leggings": "FRANCEFLAGBOOTS Leggings",
+      "item.manhunt_twist_dante.netherlandsflagpants_chestplate": "NETHERLANDSFLAGPANTS Body",
+      "item.manhunt_twist_dante.netherlandsflagpants_boots": "NETHERLANDSFLAGPANTS Boots",
+      "item.manhunt_twist_dante.romaniasword": "Romanian Sword (Stolen)",
+      "item.manhunt_twist_dante.andrewtate_spawn_egg": "ANDREWTATE Spawn Egg",
+      "item.manhunt_twist_dante.franceflagboots_chestplate": "FRANCEFLAGBOOTS Body",
+      "item.manhunt_twist_dante.franceflagboots_helmet": "FRANCEFLAGBOOTS Helmet",
+      "item.manhunt_twist_dante.irishflagfluid_bucket": "Irish Beverage Bucket",
+      "item.manhunt_twist_dante.russiaflagchestplate_chestplate": "Russian Coat",
+      "item.manhunt_twist_dante.mexicantaco": "Taco",
+      "block.manhunt_twist_dante.irishflagfluid": "Irish Beverage",
+      "item.manhunt_twist_dante.russiaflagchestplate_leggings": "RUSSIAFLAGCHESTPLATE Leggings",
+      "item.manhunt_twist_dante.israelparticlemarker_spawn_egg": "ISRAELPARTICLEMARKER Spawn Egg",
+      "item.manhunt_twist_dante.israelflag": "Flag of Israel",
+      "item.manhunt_twist_dante.australiaflag": "Flag of Australia",
+      "advancements.wooltableachievement.title": "Use the Wool Table",
+      "item.manhunt_twist_dante.japanflagkatana": "Japanese Katana",
+      "item.manhunt_twist_dante.netherlandsflagpants_helmet": "NETHERLANDSFLAGPANTS Helmet",
+      "advancements.fullflagsetachievement.descr": "Wear the full flag armour (French boots, Dutch pants, Russian coat)",
+      "subtitles.colour_bugatti": "Romanian Prisoner",
+      "item.manhunt_twist_dante.northirelandflag": "Flag of Northern Ireland",
+      "item.manhunt_twist_dante.fakefrflag": "Flag of France",
+      "block.manhunt_twist_dante.wooltable": "Wool Table",
+      "item.manhunt_twist_dante.serbiaflag": "Flag of Serbia",
+      "item.manhunt_twist_dante.russiaflagchestplate_boots": "RUSSIAFLAGCHESTPLATE Boots",
+      "itemGroup.tabtwisttab": "Twist Tab",
+      "item.manhunt_twist_dante.romaniaflag": "Flag of Romania",
+      "entity.manhunt_twist_dante.israelparticlemarker": "ISRAELPARTICLEMARKER",
+      "item.manhunt_twist_dante.scotlandflag": "Flag of Scotland",
+      "subtitles.american_gun": "Shot",
+      "item.manhunt_twist_dante.franceflagboots_boots": "French Running Boots",
+      "item.manhunt_twist_dante.russiaflagchestplate_helmet": "RUSSIAFLAGCHESTPLATE Helmet",
+      "advancements.wooltableachievement.descr": "Convert Dirt to Wool using the Wool Table",
+      "fluid.manhunt_twist_dante.irishflagfluid": "Irish Beverage",
+      "item.manhunt_twist_dante.newzealandflag": "Flag of New Zealand (Lazer Kiwi)",
+      "item.manhunt_twist_dante.ukbladeflag": "Flag (Knife) of the UK",
+      "item.manhunt_twist_dante.fakenlflag": "Flag of Netherlands",
+      "item.manhunt_twist_dante.belgiumflag": "Flag of Belgium",
+      "item.manhunt_twist_dante.netherlandsflagpants_leggings": "Dutch Swimming Pants",
+      "item.manhunt_twist_dante.palestineflag": "Flag of Palestine",
+      "advancements.fullflagsetachievement.title": "Flag drip",
+      "item.manhunt_twist_dante.canadaflag": "Flag of Canada",
+      "item.manhunt_twist_dante.uaeflag": "Flag of the UAE",
+      "item.manhunt_twist_dante.usflag": "Flag of the USA",
+      "subtitles.israel_siren": "Missile Siren",
+      "subtitles.lazer_kiwi": "Lazer Kiwi"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "FLAGS",
+        "children": [
+          {
+            "name": "ISRAEL",
+            "children": []
+          },
+          {
+            "name": "PALESTINE",
+            "children": []
+          },
+          {
+            "name": "UNITED STATES",
+            "children": []
+          },
+          {
+            "name": "MEXICO",
+            "children": []
+          },
+          {
+            "name": "NETHERLANDS",
+            "children": []
+          },
+          {
+            "name": "RUSSIA",
+            "children": []
+          },
+          {
+            "name": "SERBIA",
+            "children": []
+          },
+          {
+            "name": "IRELAND",
+            "children": []
+          },
+          {
+            "name": "ROMANIA",
+            "children": []
+          },
+          {
+            "name": "FRANCE",
+            "children": []
+          },
+          {
+            "name": "BELGIUM",
+            "children": []
+          },
+          {
+            "name": "JAPAN",
+            "children": []
+          },
+          {
+            "name": "AUSTRALIA",
+            "children": []
+          },
+          {
+            "name": "UNITED KINGDOM",
+            "children": [
+              {
+                "name": "ENGLAND",
+                "children": []
+              },
+              {
+                "name": "SCOTLAND",
+                "children": []
+              },
+              {
+                "name": "WALES",
+                "children": []
+              },
+              {
+                "name": "N.IRELAND",
+                "children": []
+              },
+              {
+                "name": "UK",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "NEW ZEALAND",
+            "children": []
+          },
+          {
+            "name": "CANADA",
+            "children": []
+          },
+          {
+            "name": "UAE",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "WOOL DEVICE",
+        "children": []
+      },
+      {
+        "name": "FLAG ARMOUR",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "manhunt_twist_dante",
+    "modName": "Manhunt Twist",
+    "version": "1.0.0",
+    "author": "ignDante",
+    "websiteURL": "https://youtube.com/@DiamondWizard",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "https://youtube.com/@DiamondWizard",
+    "modElementsPackage": "net.mcreator.manhunttwistdante",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
