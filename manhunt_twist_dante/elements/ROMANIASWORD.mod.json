@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "romania_blade",
+    "customModelName": "Normal",
+    "name": "Romanian Sword (Stolen)",
+    "specialInfo": [
+      "§aWhat color is your sword?  §7(Right-click ability)",
+      "§aAlso has a small chance to steal your enemy's items! §8(7%)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TWISTTAB"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.5,
+    "enchantability": 30,
+    "damageVsEntity": 5.0,
+    "usageCount": 122,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ROMANIASWORDABILITY"
+    },
+    "onEntityHitWith": {
+      "name": "ROMANIASWORDHITABILITY"
+    }
+  }
+}

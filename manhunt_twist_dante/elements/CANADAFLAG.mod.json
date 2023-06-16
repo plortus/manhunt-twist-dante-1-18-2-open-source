@@ -1,0 +1,43 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "ca",
+    "customModelName": "Normal",
+    "name": "Flag of Canada",
+    "specialInfo": [
+      "§aShoot to slow your enemy!",
+      "§aUses snowballs for ammunition"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TWISTTAB"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.SNOWBALL"
+    },
+    "shootConstantly": false,
+    "usageCount": 71,
+    "actionSound": {
+      "value": "block.snow.break"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.SNOWBALL"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "CANADA_FLAG_SLOWNESS"
+    }
+  }
+}

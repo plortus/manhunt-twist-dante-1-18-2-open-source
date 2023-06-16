@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "katna",
+    "customModelName": "Normal",
+    "name": "Japanese Katana",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TWISTTAB"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 12.0,
+    "attackSpeed": 7.0,
+    "enchantability": 30,
+    "damageVsEntity": 3.0,
+    "usageCount": 68,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Twist Tab",
+    "icon": {
+      "value": "Blocks.AIR"
+    },
+    "showSearch": true
+  }
+}

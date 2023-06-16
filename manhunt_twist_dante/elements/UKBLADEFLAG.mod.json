@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "uk_blade",
+    "customModelName": "Normal",
+    "name": "Flag (Knife) of the UK",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TWISTTAB"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 4.0,
+    "enchantability": 30,
+    "damageVsEntity": 7.0,
+    "usageCount": 222,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}
